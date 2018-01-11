@@ -8,12 +8,12 @@ application = Flask(__name__)
 
 @application.route('/', methods=['GET'])
 def get():
-    return '{"Output":"Hello World"}'
+    return '{"Output":"Helloooo World"}'
 
 
 @application.route('/', methods=['POST'])
 def post():
-    return '{"Output":"Hello World"}'
+    return '{"Output":"Helloooo World"}'
 
 
 if __name__ == '__main__':
